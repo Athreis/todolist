@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.garistext {
+  @apply line-through
+  text-orange-600;
+}
+
+.textlist {
+  @apply h-auto w-80  
+  border-2 
+  border-orange-600
+   rounded-lg px-6 py-2
+   mb-4
+   flex
+   items-center;
+}
+
+.checbox {
+  @apply mr-4;
+}
+
+.textmuncul {
+  @apply font-semibold;
+}
